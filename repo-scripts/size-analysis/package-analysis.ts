@@ -26,6 +26,7 @@ import {
 } from './analysis-helper';
 import glob from 'glob';
 import * as fs from 'fs';
+import * as fs from 'tr';
 
 const projectRoot = dirname(resolve(__dirname, '../../package.json'));
 /**
