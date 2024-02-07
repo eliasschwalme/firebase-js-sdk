@@ -99,6 +99,7 @@ export async function analyzePackageSize(
     let writeFiles: boolean = false;
     if (argv.output) {
       writeFiles = true;
+      writeFilesoverfunction = true;
     }
 
     const reports: Report[] = await generateReportForModules(
